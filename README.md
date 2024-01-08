@@ -18,7 +18,7 @@ Slides and other content for the Apple Development Intensive course given at the
   - 1630-1700: Discussion
 - Schedule for the week:
   - Monday: Introduction, Constants and Operators - how can I demo this in SwiftUI?
-    - 1000-1100: Lecture 1: Introduction to the course. 1-01 Introduction to Swift and Playgrounds.key. Talk about Chicken and Egg problem
+    - 1000-1100: Lecture 1: Introduction to the course. 1-01 Introduction to Swift and Playgrounds.key. Talk about Chicken and Egg problem. https://www.apple.com/uk/swift/playgrounds/ ?
     - 1100-1230: Workshop 1: Introduction to GitHub. Introduction to GitHub. Introduction to Swift. Introduction to the Swift REPL (https://developer.apple.com/swift/blog/?id=18). Lab - Introduction.playground
     - 1230-1300: Discussion 1: What do you want to make?
     - 1300-1400: Lunch break
