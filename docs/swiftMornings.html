@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Apple Development Intensive 2024, 🍎👩🏻‍💻: Swift Mornings</title>
+  <!-- This whole presentation was made with Big: https://github.com/tmcw/big -->
+
+  <link href="big/big.css" rel="stylesheet" type="text/css" />
+  <script>
+    BIG_ASPECT_RATIO = false;
+  </script>
+
+  <script src="big/big.js"></script>
+  <link href="big/themes/lightWhite.css" rel="stylesheet" type="text/css" />
+
+  <!-- Favicon link below, via https://emojitofavicon.com -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖖🏻</text></svg>">
+
+  <style>
+    body {
+      background-color: #EDD1B0;
+    }
+  </style>
+</head>
+
+<body>
+  <div>Apple Development Intensive 2024, 🍎👩🏻‍💻: Swift Mornings.<br /><a href="index.html">Back to slide index</a>.</div>
+  <div>
+    👋🏻 Hi! I'm <a href="https://instagram.com/jgl">Joel</a>. My pronouns are he/him. I'm 43 and I live in London near Epping Forest with my fiancée and one cat.
+  </div>
+  <div>
+    Welcome to the Creative Computing Institute!
+  </div>
+  <div>
+    Welcome to the Apple Development Intensive 🍎👩🏻‍💻!
+  </div>
+  <div>This is a brand new course, so I'd love to hear all your feedback - please please please <a href="https://instagram.com/jgl">DM me on Instagram with your thoughts</a>, or <a href="https://joelgethinlewis.com/">email me, via my website</a>. I'm particularly looking out for good YouTube channels, so please share those if you find them.</div>
+  <div>Next, let's go around the room and introduce ourselves, with how you like to be addressed, how you are feeling today and which course and college you are part of at UAL.</div>
+  <div>
+    Let's take a look at the
+    <a href="https://jgl.github.io/AppleDevelopmentIntensive2024/">Apple Intensive Homepage</a>, <a href="https://github.com/JGL/AppleDevelopmentIntensive2024">the GitHub readme.md</a> and finally the <a href="https://github.com/JGL/AppleDevelopmentIntensive2024/wiki">GitHub wiki</a>.
+  </div>
+  <div>Now a bit more about me.</div>
+  <div>My Background</div>
+  <div>🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales and being bored.</div>
+  <div>🤖 1997 and <a href="https://en.wikipedia.org/wiki/Neuromancer">Neuromancer</a>/<a href="https://en.wikipedia.org/wiki/OK_Computer">OK Computer</a>/<a href="https://en.wikipedia.org/wiki/Blade_Runner">Blade Runner</a>.</div>
+  <div>✨ <a href="https://www.imperial.ac.uk">Imperial</a> and Star Wars.</div>
+  <div>⏰ <a href="https://www.rca.ac.uk">Royal College of Art</a> and being earlylate.</div>
+  <div>🇮🇹 <a href="http://www.fabrica.it">Fabrica</a> and not starving.</div>
+  <div>🔁 <a href="https://www.uva.co.uk">UnitedVisualArtists</a> and <a href="https://www.youtube.com/watch?v=IQ9aw9pLfQY">feedback loops</a>.</div>
+  <div>📖 <a href="https://vimeo.com/hellicarandlewis">Hellicar&Lewis</a> and open source.</div>
+  <div>🧘🏻‍♀️ Teaching and psychic load and meditation.</div>
+  <div>👯‍♀️ <a href="https://www.universaleverything.com">Universal Everything</a> and people not projects.</div>
+  <div>Important methods for succeeding on this course (and in general)</div>
+  <div>
+    <div>Some things to keep in mind:
+      <ol>
+        <li>🐟 Dory</li>
+        <li>🛹 Henrick Kniberg on making skateboards</li>
+        <li>⛑ Cassie Robinson's thoughts</li>
+        <li>💀 Chuck Wendig on being a magic skeleton</li>
+        <li>🌊 David Bowie on being out of your depth</li>
+        <li>📸 Yohji Yamamoto on copying</li>
+        <li>🐌 On going slow</li>
+        <li>🙉 Susan Wendell on hearing disabled people</li>
+        <li>🦆 A rubber duck and 🪱🍎 being a worm inside Apple</li>
+      </ol>
+    </div>
+  </div>
+  <div>
+    <img src="images/dory.jpg" />
+    <p><a href="https://disney.fandom.com/wiki/Just_Keep_Swimming">What does Dory do</a>? This is the most important thing in creative coding (and life).</p>
+  </div>
+  <div>
+    <img src="images/skateBoardNotCar.PNG" />
+    <div>
+      <a href="https://twitter.com/henrikkniberg">Henrick Kniberg</a> on how to make a car. In other words, if you want to make a car, make a skateboard, then a scooter, then a bicycle, then a motorbike and THEN a car. I want you to make lots of skateboards.
+    </div>
+  </div>
+  <div>
+    <img src="images/CassieRobinsonThoughts.jpg" width="42%" />
+    <p><a href="https://twitter.com/CassieRobinson">Cassie Robinson's</a> thoughts on what to think about when you make something.</p>
+  </div>
+  <div>
+    <img src="images/ChuckWendigMagicSkeleton.png" width="100%" />
+    <div><a href="https://twitter.com/ChuckWendig">Chuck Wendig</a> on what to remember.</div>
+  </div>
+  <div>
+    <img src="images/davidBowieQuote.jpg" width="62%" />
+    <div>Just a little out of your depth is the right place to be.</div>
+  </div>
+  <div>
+    <img src="images/YohjiYamamoto.jpg" width="100%" />
+    <div><a href="https://en.wikipedia.org/wiki/Yohji_Yamamoto">Yohji Yamamoto</a> is right. Copy what you love!</div>
+  </div>
+  <div>
+    <img src="images/Lapping.JPG" width="100%" />
+    <div>Just try. As soon as you try you are way ahead of most other people.</div>
+  </div>
+  <div>
+    <img src="images/SusanWendell.jpg" width="62%" />
+    <div><a href="https://en.wikipedia.org/wiki/Until_I_Say_Good-Bye:_My_Year_of_Living_with_Joy">Susan Wendell</a> wrote powerfully about disability and feminism. What explosion of knowledge could you make with your life?</div>
+  </div>
+  <div>
+    <img src="images/Rubber_duck_assisting_with_debugging.jpg" />
+    <div><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber duck debugging</a> is a very powerful technique.</div>
+  </div>
+  <div>I want you all to be worms from now on. 🪱🍎. I want you to be like this! I want you to burrow into the Apple ecosystem and make new, beautiful, caring and playful apps that you want and you want to make for other groups that are important to you. Who might those be?</div>
+  <div>Next, a really important diagram.</div>
+  <div>
+    <img src="images/JimCampbellFormula_for_computer_art.jpg" />
+    <div><a href="https://jimcampbell.tv/">Jim Campbell</a>'s formula for Computer Art. Realise that you can use things without understanding every aspect of them. All that computers do is process inputs into outputs. That's it.</div>
+  </div>
+  <div>But what are we going to learn?</div>
+  <div>
+    <div>We are going to learn <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift</a>, which is <a href="https://survey.stackoverflow.co/2022/#technology-top-paying-technologies">one of the most top paying programming languages in the world</a> as well as <a href="https://www.apple.com/uk/app-store/developing-for-the-app-store/">audience of over 1.5 billion devices</a>. But it isn't about the money, it's about the impact. I want you to realise that your apps have just as much of a right to be on the home screen as anyone else's. Also, I have a feeling that the Apple Glasses are coming. You are all going to be in a superb position to make the first great apps for that device when it arrives.</div>
+  </div>
+  <div>
+    Other coding resources:
+    <ul>
+      <li><a href="https://cs193p.sites.stanford.edu/">The Stanford CS193p course on Developing Apps for iOS</a> is a great course exclusively in SwiftUI, the latest way of making apps for iOS - we'll be learning more of this later in the block, but you might want to get a head start!</li>
+      <li><a href="https://github.com/terkelg/awesome-creative-coding">Awesome Creative Coding</a> - a "carefully curated list of awesome creative coding resources primarily for beginners/intermediates" - tons of brilliant creative coding resources here.</li>
+      <li><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW">CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming</a> - not strictly creative coding, but a good introduction to programming and computer science.</li>
+      <li>Super old school (1986) <a href="https://www.youtube.com/watch?v=2Op3QLzMgSY">introduction to Computer Science from Hal Abelson at MIT</a> - lots of wisdom here, but not a good source for how to learn Swift!</li>
+      <li><a href="https://www.youtube.com/user/Computerphile/">Computerphile</a> is a YouTube channel with "videos all about computers and computer stuff". It's also the sister channel of the brilliant <a href="https://www.youtube.com/user/numberphile/">Numberphile</a>.</li>
+    </ul>
+  </div>
+  <div>Some situating yourself in the world resources:</div>
+  <div>
+    We are in a stressful time at the moment. Here are some resources for situating yourself in the world, and how to keep going, set up a studio (if you want) and what you (maybe) should be doing:
+    <ul>
+      <li><a href="https://abookapart.com/products/youre-my-favorite-client">You're my Favourite Client</a> - how to be a great client. I give this book to all my clients.</li>
+      <li><a href="https://sivers.org/hellyeah">Hell Yeah</a> - how to decide to do a project or not.</li>
+      <li><a href="https://medium.com/@austinkleon/how-to-keep-going-c185496fd295">Austin Kleon on how to keep going</a>.</li>
+      <li><a href="https://www.youtube.com/watch?v=mhFQA998WiA">Tim Pychyl on procrastination and the importance of being conscientious</a>.</li>
+      <li><a href="https://www.youtube.com/watch?v=X2wLP0izeJE">Ira Glass on the gap between your taste and the quality of your work</a> - you must watch this one!</li>
+      <li><a href="https://vimeo.com/115154289">Bret Victor’s Lecture at Closing keynote at the UIST and SPLASH conferences, October 2014 on "The Humane Representation of Thought"</a> - inspirational stuff from <a href="http://worrydream.com">Bret Victor</a> - who also wrote a great essay <a href=" http://worrydream.com/ClimateChange/">on what a technologist can do about climate change</a>. </li>
+      <li><a href="https://www.youtube.com/watch?v=FvmTSpJU-Xc">Alan Kay - "Normal Considered Harmful"</a> - one of the creators of modern computing on how to make change in the world.</li>
+      <li><a href="https://twitter.com/anabjain">Anab Jain</a> of <a href=" https://superflux.in">Superflux </a>'s essay on <a href="https://superflux.in/index.php/calling-for-a-more-than-human-politics/#">Calling for a More-Than-Human Politics</a>.</li>
+    </ul>
+  </div>
+  <div>
+    Some brain exploding resources:
+    <ul>
+      <li><a href="https://waitbutwhy.com/">Wait but Why</a> - lots of great essays on interesting things - I started with this one - <a href="https://waitbutwhy.com/2014/05/life-weeks.html">Your Life in Weeks</a>.</li>
+      <li><a href="https://betterexplained.com/">Better Explained</a> - the best site for getting explanations of Maths ideas graphically - I started with this article - <a href="https://betterexplained.com/articles/surprising-uses-of-the-pythagorean-theorem/">Surprising Uses of the Pythagorean Theorem</a>.</li>
+      <li><a href="https://www.youtube.com/watch?v=NNnIGh9g6fA">Stanford professor Robert Sapolsky's opening lecture of the course entitled Human Behavioural Biology</a> on how he aims to avoid categorical thinking.</a></li>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=1mcCLm_LwpE">Jane Elliott's anti racist teaching</a>.</li>
+    </ul>
+  </div>
+  <div>
+    For inspiration for the things you can make on Apple platforms, let's take a look at the <a href="https://developer.apple.com/design/awards/">Apple Design Awards 2023 winners and finalists</a>. Lots of behind the scenes articles on that page too.
+  </div>
+  <div>Before we start, I wanted to share a lovely analogy that an ex student ,Rocio suggested for what we are doing "we are setting up tools to get coding or get started with resources to find code, just like gathering materials you might need for other crafts like painting". I hope that's helpful!</div>
+  <div>Signing up to GitHub - the best place to find and share code</div>
+  <div><a href="https://en.wikipedia.org/wiki/GitHub">GitHub</a> is a website that enables you to use <a href="https://en.wikipedia.org/wiki/Git">Git</a> to store, edit and share all your code with other developers around the world. Git is software for tracking changes to and sharing those changes with other programmers. Git is open source, while GitHub is owned by Microsoft. Both are free to use. Github is the industry standard website for programmers - employers may look at your GitHub to see what kind of code you write and how you help others. It's the first place I go to find code to use in my own work.</div>
+  <div>But what does that really mean? What problem does Git (and GitHub) solve? Over to <a href="https://youtu.be/BCQHnlnPusY?t=57">Daniel Shiffman</a> for a great explanation. (BTW, Dan's whole playlist <a href="https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV">"Git and GitHub for Poets"</a> is the one I'd recommend to learn more about them both). There are lots of great resources for learning creative code online and <a href="https://www.youtube.com/thecodingtrain">Dan's YouTube channel "The Coding Train" is the one that I recommend above all others</a>.</div>
+  <div>Sign up to GitHub here: <a href="https://github.com/signup">https://github.com/signup</a> - please use a non university email address to do this, so you can keep logging in after you've graduated. Pick a username that you wouldn't be embarrassed to apply for a job with! I'll give you 5 minutes to do this.</div>
+  <div>We'll use those GitHub ID's later, but now let's move onto to some Swift...</div>
+  <div>In the mornings, we are going to be using Apple's Swift Fundamentals textbook, which is part of the <a href="https://www.apple.com/education/higher-education/app-development/">Develop in Swift curriculum</a>. You can find links to all the text books (student and teacher versions are both free on Apple Books!) at the bottom of the page. You won't need them for this intensive, but they are useful for learning later, or as reference.</div>
+  <div>You will need to download the following files:
+    <ul>
+      <li><a href="https://education-static.apple.com/fundamentals/xcode13/student.zip">Student files for Swift Explorations</a></li>
+      <li><a href="https://education-static.apple.com/fundamentals/xcode13/teacher.zip">Teacher files for Swift Explorations (including all solutions)</a></li>
+    </ul>
+  </div>
+  <div>Next, make sure you have an <a href="https://support.apple.com/en-gb/108647">Apple ID</a> set up. You can become a member of the <a href="https://developer.apple.com/programs/">Apple Developer Program</a> if you want, but it's not necessary to complete the Intensive - it's £99 a year.</div>
+  <div>Finally, before going any further, please make sure you have <a href="https://developer.apple.com/xcode/">Xcode</a> and <a href="https://www.apple.com/uk/swift/playgrounds/">Swift Playgrounds for Mac</a> installed on your computers.</div>
+  <div>As I said at the start, this is the first time this intensive has run, so we are going to see how long it takes us to work through the content...</div>
+  <div>Let's start with "1-01 Introduction to Swift and Playgrounds.key" and then "Lab - Introduction.playground".</div>
+  <div>Next: "1-02 Constants Variables and Data Types.key" and "Constants and Variables.playground".</div>
+  <div>Next: "1-03 Operators.key" and "Lab - Operators.playground".</div>
+  <div>Next: "1-04 Control Flow.key" and "Lab - Control Flow.playground".</div>
+  <div>Next: "2-01 Strings.key" and "Lab - Strings.playground".</div>
+  <div>Next: "2-02 Functions.key" and "Lab - Functions.playground".</div>
+  <div>Next: "2-03 Structures.key" and "Lab - Structures.playground".</div>
+  <div>Next: "2-04 Classes.key" and "Lab - Classes.playground".</div>
+  <div>Next: "2-05 Collections.key" and "Lab - Collections.playground".</div>
+  <div>Next: "2-06 Loops.key" and "Lab - Loops.playground".</div>
+  <div>Next: "3-01 Optionals.key" and "Lab - Optionals.playground".</div>
+  <div>Next: "3-02 Type Casting and Inspection.key" and "Lab - Type Casting.playground".</div>
+  <div>Next: "3-03 Guard.key" and "Lab - Guard.playground".</div>
+  <div>Next: "3-04 Scope.key" and "Lab - Scope.playground".</div>
+  <div>Next: "3-05 Enumerations.key" and "Lab - Enumerations.playground".</div>
+  <div>
+    Thanks!<br /><a href="index.html">Back to slide index</a>.
+  </div>
+</body>
+
+</html>
