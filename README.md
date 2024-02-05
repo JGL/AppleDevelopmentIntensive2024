@@ -6,7 +6,7 @@ Slides and other content for the Apple Development Intensive course given at the
 
 - Location: Room B501-02, [Creative Computing Institute(CCI)](https://www.arts.ac.uk/creative-computing-institute), Camberwell, London.
 - Lecturer: [Joel Gethin Lewis](https://joelgethinlewis.com/). Contact me via email via my website.
-- [Lecture and Workshop slides](https://github.com/JGL/AppleDevelopmentIntensive2024)
+- [Lecture and Workshop slides](https://jgl.github.io/AppleDevelopmentIntensive2024/)
 - Please see the [course wiki for all non-lecture notes, reading lists and other resources](https://github.com/JGL/AppleDevelopmentIntensive2024/wiki).
 - Daily schedule:
   - 1000-1230: Lectures and Workshops on Swift
